@@ -4,7 +4,14 @@ function Programs() {
   return (
     < >
     <span>
-    <div className=" top-[30%]    md:w-full md:h-48 bg-no-repeat bg-cover bg-center z-[-1]" style={{ backgroundImage: `url("/MySaves/sciresearch.jpg")` }}></div>
+
+    <div className="banner text-white text-center flex flex-col justify-center items-center bg-custom-102 w-full h-64">
+  <h1 className=" mb-3 text-3xl  font-bold">Exceptional Consulting Services</h1>
+  <p >___ EduGlobal offers professional consulting services delivered by certified and seasoned consultants ___</p>
+
+</div>
+
+   
 
     </span>
     <h1 className=' font-serif text-center bg-custom-100 text-white font-extrabold mt-4 h-7 text-2xl p-3 pb-16'>Offered Programs in which <br /> you can Apply</h1>

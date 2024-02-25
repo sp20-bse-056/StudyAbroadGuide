@@ -14,15 +14,15 @@ function NavBar() {
       <div>
         {/* second main section */}
         <section className="relative bannerVideo">
-          <video
-            className="w-full h-[190px] lg:h-[364px] object-cover"
-            autoPlay
-            loop
-            muted
-            playsInline
-          >
-            <source src="/video.mp4" type="video/mp4" />
-          </video>
+        <video
+  className="w-full h-[210px] md:h-[564px] object-cover"
+  autoPlay
+  loop
+  muted
+  playsInline
+>
+  <source src="/video.mp4" type="video/mp4" />
+</video>
           <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center text-white">
             <h1 className=" text-lg lg:text-4xl font-bold font-serif">
               Embark on a Journey of Educational Exploration Across the Globe
@@ -36,12 +36,12 @@ function NavBar() {
         {/* third section , purpose  */}
 
         <section className=" md:flex mt-5 gap-9">
-          <div className="relative animate-right-to-left    text-center  animate-left-to-right ">
+          <div className="relative animate-right-to-left    text-center   ">
             <h1 className="text-white font-bold text-xl font-serif m-3">
               Embark on your adventure with studying abroad.
             </h1>
             <img
-              className=" md:hidden w-full h-[230px]  md:w-[550px] md:h-[280px] hover:animate-pulse hover:scale-110 transition-transform"
+              className=" md:hidden w-full h-[230px]  md:w-[550px] md:h-[280px]  hover:scale-110  "
               src="/MySaves/img3.jpg"
               alt="not found"
             />
