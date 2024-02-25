@@ -41,8 +41,8 @@ function NavBar() {
               Embark on your adventure with studying abroad.
             </h1>
             <img
-              className=" md:hidden w-full h-[230px]  md:w-[550px] md:h-[280px]  hover:scale-110  "
-              src="/MySaves/img3.jpg"
+              className="  md:hidden w-full h-[230px]  md:w-[550px] md:h-[280px]  hover:scale-110  "
+              src="/MySaves/study-abroad-3.jpg"
               alt="not found"
             />
             <p className="text-center text-white mt-4 p-1">
@@ -58,8 +58,8 @@ function NavBar() {
         </section>
 
         {/* guid section  */}
-        <section className=" font-serif  bg-slate-200 md:mt-4 md:gap-8">
-          <div className="md:w-[50%] h-20 mt-7 bg-custom-102  md:rounded-e-full flex justify-end items-center">
+        <section className=" font-serif   bg-slate-200 md:mt-4 md:gap-8">
+          <div className="md:w-[50%] h-20 mt-12 bg-custom-102  md:rounded-e-full flex justify-end items-center">
             <p className="text-white text-center md:text-right md:pr-9 text-2xl">
               We're here to support you every step of the way
             </p>
