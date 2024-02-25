@@ -1,0 +1,155 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+  background: #012943;
+  
+  
+}
+
+
+@keyframes slideInRight {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes slideInLeft {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+  .animate-left-to-right {
+    animation: slideInRight 1s ease forwards;
+  }
+  
+  .animate-right-to-left {
+    animation: slideInLeft 1.5s ease forwards;
+  }
+  
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.05);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  .hover\:animate-pulse:hover {
+    animation: pulse 1s infinite;
+  }
+
+  
+  @keyframes slideInBottom {
+    0% {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.05);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  /* distination section  */
+  @keyframes slideInUp {
+    0% {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.05);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  .animate-up-from-bottom {
+    animation: slideInUp 1s ease forwards;
+  }
+  
+  .uk img:hover,
+  .Australia img:hover,
+  .china img:hover {
+    animation: pulse 1s infinite;
+  }
+  /*footer rexposiveness  */
+
+  @media (min-width: 767px) {
+    .navbar{
+      display: none;
+    }
+     .footer{
+      text-align: center;
+      text-wrap: wrap;
+      
+     }
+    .footer-text {
+      flex-direction: column;
+      text-align: center;
+    }
+
+    .footer-text > div {
+      margin-bottom: 1rem;
+    }
+    .follow{
+      margin-bottom: 10px;
+      margin-top: 40px;
+    }
+
+    .footer-text > div:first-child {
+      margin-bottom: 0;
+    }
+
+    .footer-text ul {
+      justify-content: center;
+    }
+
+    .footer-text p {
+      margin-top: 0.5rem;
+    }
+  
+  }
+
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .footer-text ul {
+      gap: 8px;
+    }
+
+   
+  }
