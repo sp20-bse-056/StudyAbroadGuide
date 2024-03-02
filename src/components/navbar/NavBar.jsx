@@ -36,7 +36,7 @@ function NavBar() {
         {/* third section , purpose  */}
 
         <section className=" md:flex mt-5 gap-9">
-          <div className="relative animate-right-to-left    text-center   ">
+          <div className="relative      text-center   ">
             <h1 className="text-white font-bold text-xl font-serif m-3">
               Embark on your adventure with studying abroad.
             </h1>
