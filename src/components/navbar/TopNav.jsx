@@ -77,7 +77,7 @@ const TopNav = () => {
 
       {/* Navbar ========================================================== */}
 
-      <nav className="sticky  p-3 z-50 top-0 flex-initial h-14 bg-slate-100 hidden md:flex gap-5 justify-evenly items-center text-white">
+      <nav className="sticky  p-3 z-50 top-0 flex-initial h-14 bg-slate-100 hidden lg:flex gap-5 justify-evenly items-center text-white">
   <div className="Logo mt-1 flex items-center    text-black ">
     <BsPentagonHalf className="h-9 cursor-pointer w-9"/><p className="ml-2 cursor-pointer font-serif font-bold text-xl mt-1">The Study Abroad</p>
   </div>

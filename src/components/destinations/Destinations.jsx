@@ -16,30 +16,26 @@ const Destinations = () => {
   return (
     <>
       {/* Destinations section */}
-      <section className={`mt-6 ${isVisible ? " " : ""}`} ref={ref}>
+      <section   >
         <h1 className="text-2xl text-center text-white font-serif font-bold">
           Discover Best Study Abroad Destinations and Countries
         </h1>
         <div className="md:flex md:justify-evenly  m-5 md:gap-12">
           <div className="mb-9 uk text-center">
             <img
-              className={`  mx-auto h-[240px] md:h-[270px]  w-[400px] object-cover rounded-md shadow-lg hover:shadow-xl transition   ${
-                isVisible ? "opacity-100" : "opacity-0"
-              }`}
+              className="  mx-auto h-[240px] md:h-[270px]  w-[400px] object-cover rounded-md shadow-lg hover:shadow-xl "
               src="/MySaves/UKPicture.jpg"
               alt="Study in UK"
             />
             <h1
-              className={`mt-4 text-white text-2xl font-serif font-bold ${
-                isVisible ? "opacity-100" : "opacity-0"
-              }`}
+              className= "mt-4 text-white text-2xl font-serif font-bold " 
+                
             >
               Study abroad in the UK
             </h1>
             <p
-              className={`text-white mt-3 font-serif ${
-                isVisible ? "opacity-100" : "opacity-0"
-              }`}
+              className="text-white mt-3 font-serif" 
+               
             >
               Embark on a transformative academic journey in the UK, where
               world-class education, diverse cultures, and unparalleled career
@@ -47,9 +43,8 @@ const Destinations = () => {
               possibilities.{" "}
             </p>
             <button
-              className={`bg-custom-102 w-[135px] mt-5 md:mt-1 hover:bg-custom-101 text-white font-serif rounded-2xl h-7 ${
-                isVisible ? "opacity-100" : "opacity-0"
-              }`}
+              className="bg-custom-102 w-[135px] mt-5 md:mt-1 hover:bg-custom-101 text-white font-serif rounded-2xl h-7 " 
+               
             >
               Discover UK
             </button>

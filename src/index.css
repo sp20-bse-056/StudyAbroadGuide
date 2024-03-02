@@ -110,7 +110,13 @@ body{
   }
   /*footer rexposiveness  */
 
-  @media (min-width: 767px) {
+  @media (max-width: 950px  ){
+    .navbar{
+      display: none;
+    }
+  }
+
+  @media (min-width: 768px  )  {
     .navbar{
       display: none;
     }

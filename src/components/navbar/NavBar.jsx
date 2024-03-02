@@ -15,7 +15,7 @@ function NavBar() {
         {/* second main section */}
         <section className="relative bannerVideo">
         <video
-  className="w-full h-[210px] md:h-[564px] object-cover"
+  className="w-full h-[190px] md:h-[340px] lg:h-[460px] object-cover"
   autoPlay
   loop
   muted
@@ -27,9 +27,8 @@ function NavBar() {
             <h1 className=" text-lg lg:text-4xl font-bold font-serif">
               Embark on a Journey of Educational Exploration Across the Globe
             </h1>
-            <p className="mt-2 font-serif">
-              Browse thousands of degrees from around the world
-            </p>
+        
+
           </div>
         </section>
 
@@ -41,7 +40,7 @@ function NavBar() {
               Embark on your adventure with studying abroad.
             </h1>
             <img
-              className="  md:hidden w-full h-[230px]  md:w-[550px] md:h-[280px]  hover:scale-110  "
+              className="  md:hidden w-full h-[230px]  md:w-[550px] md:h-[280px]   "
               src="/MySaves/study-abroad-3.jpg"
               alt="not found"
             />
