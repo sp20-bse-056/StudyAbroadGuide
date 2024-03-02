@@ -11,22 +11,24 @@ const Footer = () => {
   <div className="footer-text text-white flex flex-col md:flex-row justify-between items-center px-4 md:px-8 py-4 md:py-8">
    
     
-    <div className="flex flex-col md:flex-row gap-8">
-      <ul className="flex  ml-3   lg:w-full    justify-center   mt-3 mr-8 gap-4 md:gap-12">
+    <div className="flex flex-col   gap-2">
+      <ul className="flex  ml-3   lg:w-full    justify-center   mt-3  gap-4 md:gap-12">
         <li className="hover:text-custom-101 border-r-2 pr-2">About</li>
         <li className="hover:text-custom-101 border-r-2 pr-2">Services</li>
         <li className="hover:text-custom-101 border-r-2 pr-2">Find Programs</li>
       </ul>
 
-      <div className="flex gap-3 lg:mr-8 lg:mt-3 justify-center  md:mt-0">
-        <p className=" follow mt-1 w-full lg:mr-4 text-xl md:text-2xl">Follow Us</p>
-        <FaFacebookSquare className=" mt-1 lg:mt-3  hover:text-custom-101 h-6 w-6" />
-        <FaInstagram className="mt-1  lg:mt-3 hover:text-custom-101 h-6 w-6" />
-        <RiTwitterXLine className=" lg:mt-3 mt-1  hover:text-custom-101 h-6 w-6" />
-        <FaLinkedin className="mt-1 lg:mt-3 hover:text-custom-101 h-6 w-6" />
+      <div className=" flex gap-6 text-center mt-5 justify-center ">
+        <p className="  " >Follow Us</p>
+        <span className='flex mt-1 md:mt-3 gap-4 '>
+        <FaFacebookSquare className=" hover:text-custom-101 " />
+        <FaInstagram className=" hover:text-custom-101 "/>
+        <RiTwitterXLine className="hover:text-custom-101 " />
+        <FaLinkedin className="hover:text-custom-101 " />
+        </span>
       </div>
     </div>
-    <div className="pb-3 mt-5 mb-4 md:mb-0">
+    <div className="pb-3 text-center mt-5 mb-4 md:mb-0">
       <p>© 2024 Education Global, Inc.  All rights reserved.</p>
     </div>
   </div>
