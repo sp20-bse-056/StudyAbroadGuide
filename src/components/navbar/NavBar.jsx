@@ -15,7 +15,7 @@ function NavBar() {
         {/* second main section */}
         <section className="relative bannerVideo">
         <video
-  className="w-full h-[180px] md:h-[340px] lg:h-[460px] object-cover"
+  className="w-full h-[170px] md:h-[340px] lg:h-[460px] object-cover"
   autoPlay
   loop
   muted
